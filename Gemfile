@@ -27,6 +27,10 @@ gem "jbuilder"
 gem "redis", ">= 4.0.1"
 
 gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'iex-ruby-client'
+gem 'dotenv-rails'
+gem "jquery-rails"
+gem 'byebug', '~> 11.1', '>= 11.1.3'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"

@@ -1,0 +1,14 @@
+<div>
+  <% if @stock %>
+    <div class="block rounded-lg bg-white p-6 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
+      <h5 class="mb-2 text-xl font-medium leading-tight"></h5>
+    </div>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2"><%= @stock.name %></div>
+        <strong>Symbol: </strong> <%= @stock.ticker %><br/>
+        <strong>Price: </strong> <%= @stock.last_price %>
+      </div>
+    </div>
+  <% end %>
+</div>
